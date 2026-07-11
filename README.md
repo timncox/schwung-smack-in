@@ -4,7 +4,7 @@ Distribution repo for **Smack In** — the standalone `sound_generator` build
 of [Smack](https://github.com/timncox/schwung-smack) for
 [schwung](https://github.com/charlesvestal/schwung) on the Ableton Move.
 
-Smack In reads the hardware mic/line input directly (with schwung's boot
+Smack In reads Move's selected audio input (mic, line, or USB-C — the XMOS routes the source) directly (with schwung's boot
 feedback protection), so you get quantized loop capture + seeded per-slice
 glitch FX in a single chain slot — no `linein` module needed in front.
 
